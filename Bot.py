@@ -4,7 +4,7 @@ client = OpenAI()
 while True:
     user_input = input("You: ")
     if user_input.lower() == "exit":
-        print("Chatbot ended.")
+        print("Chatbot ended.Goodbye!")
         break
 
     prompt = "Answer in easy english but in 1 line only: " + user_input
